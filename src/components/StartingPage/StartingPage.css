@@ -1,0 +1,53 @@
+.starting-page {
+    background: rgb(116,108,255);
+    background: linear-gradient(360deg, rgba(139, 160, 255, 0.438) 0%, rgba(255,255,255,1) 100%);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    font-size: 14px; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+
+  }
+
+  .starting-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+
+.go-button {
+  background: rgb(116,108,255);
+  background: linear-gradient(90deg, rgb(55, 102, 255) 0%, rgba(255,255,255,1) 100%);
+  background-size: 100%;
+
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5% 5% 5% 5%;
+
+  transition: 0.5s all ease-in-out;
+}
+
+.go-button:hover {
+  transform: scale(1.05);
+  
+  box-shadow: 1px 0px 10px rgb(38, 132, 255);
+  background-size: 125%;
+  cursor: pointer;
+}
+
+span {
+  font-weight: bold;
+}
+  
